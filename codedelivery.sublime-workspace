@@ -1,0 +1,915 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"user",
+				"userRepository"
+			],
+			[
+				"Order",
+				"OrderService"
+			],
+			[
+				"order",
+				"OrderRepository"
+			],
+			[
+				"th",
+				"this"
+			],
+			[
+				"clien",
+				"clientService"
+			],
+			[
+				"Clie",
+				"ClientService"
+			],
+			[
+				"Client",
+				"ClientRepository"
+			],
+			[
+				"li",
+				"list"
+			],
+			[
+				"cate",
+				"categoryRepository"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"u",
+				"ul	Tag"
+			],
+			[
+				"Produ",
+				"products"
+			],
+			[
+				"for",
+				"for	for …"
+			],
+			[
+				"fore",
+				"odbc_foreignkeys"
+			],
+			[
+				"Mo",
+				"Models"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"ri",
+				"right"
+			],
+			[
+				"max-w",
+				"max-width"
+			],
+			[
+				"em",
+				"emailDestinatario"
+			],
+			[
+				"mensa",
+				"mensagemRetorno"
+			],
+			[
+				"mens",
+				"mensagemRetorno"
+			],
+			[
+				"from",
+				"fromName"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"Re",
+				"Request"
+			],
+			[
+				"sho",
+				"showResidencialProjeto"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"arr",
+				"arrFotos"
+			],
+			[
+				"se",
+				"section"
+			],
+			[
+				"swi",
+				"switch	switch …"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"mi",
+				"middle"
+			],
+			[
+				"import",
+				"important"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/Http/routes.php",
+			"settings":
+			{
+				"buffer_size": 2449,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/admin/orders/index.blade.php",
+			"settings":
+			{
+				"buffer_size": 1016,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/admin/orders/edit.blade.php",
+			"settings":
+			{
+				"buffer_size": 953,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/Http/Controllers/OrdersController.php",
+			"settings":
+			{
+				"buffer_size": 1352,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Models/Order.php",
+			"settings":
+			{
+				"buffer_size": 781,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 219.0,
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"instal pac",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/wamp/www/codedelivery/composer.json",
+		"/C/wamp/www/codedelivery/app/Models/Order.php",
+		"/C/wamp/www/codedelivery/app/Services/OrderService.php",
+		"/C/wamp/www/codedelivery/database/seeds/UserTableSeeder.php",
+		"/C/wamp/www/codedelivery/app/Repositories/UserRepositoryEloquent.php",
+		"/C/wamp/www/codedelivery/app/Models/OrderItem.php",
+		"/C/wamp/www/codedelivery/resources/views/admin/products/_form.blade.php",
+		"/C/wamp/www/codedelivery/app/Models/Product.php",
+		"/C/wamp/www/codedelivery/database/migrations/2015_12_17_012858_create_orders_items_table.php",
+		"/C/wamp/www/codedelivery/app/Http/Controllers/OrdersController.php",
+		"/C/wamp/www/codedelivery/resources/views/admin/orders/index.blade.php",
+		"/C/wamp/www/codedelivery/database/seeds/OrderTableSeeder.php",
+		"/C/wamp/www/codedelivery/database/factories/ModelFactory.php",
+		"/C/wamp/www/codedelivery/database/seeds/DatabaseSeeder.php",
+		"/C/wamp/www/codedelivery/database/migrations/2015_12_17_012814_create_orders_table.php",
+		"/C/wamp/www/codedelivery/resources/views/app.blade.php",
+		"/C/wamp/www/codedelivery/app/Http/Requests/AdminClientRequest.php",
+		"/C/wamp/www/codedelivery/app/Services/ClientService.php",
+		"/C/wamp/www/codedelivery/resources/views/admin/clients/index.blade.php",
+		"/C/wamp/www/codedelivery/app/Http/Controllers/ClientsController.php",
+		"/C/wamp/www/codedelivery/app/Http/Controllers/ProductsController.php",
+		"/C/wamp/www/codedelivery/app/Models/Client.php",
+		"/C/wamp/www/codedelivery/resources/views/admin/clients/_form.blade.php",
+		"/C/wamp/www/codedelivery/app/Http/Controllers/CategoriesController.php",
+		"/C/wamp/www/codedelivery/resources/views/admin/clients/edit.blade.php",
+		"/C/wamp/www/codedelivery/resources/views/admin/clients/create.blade.php",
+		"/C/wamp/www/codedelivery/app/Http/Middleware/CheckRole.php",
+		"/C/wamp/www/codedelivery/app/Models/User.php",
+		"/C/wamp/www/codedelivery/app/Repositories/ProductRepositoryEloquent.php",
+		"/C/wamp/www/codedelivery/app/Repositories/ProductRepository.php",
+		"/C/wamp/www/codedelivery/config/app.php",
+		"/C/wamp/www/codedelivery/app/Repositories/UserRepository.php",
+		"/C/wamp/www/codedelivery/resources/views/admin/products/index.blade.php",
+		"/C/wamp/www/codedelivery/app/Models/Category.php",
+		"/C/wamp/www/codedelivery/resources/views/admin/client/index.blade.php",
+		"/C/wamp/www/codedelivery/resources/views/admin/client/_form.blade.php",
+		"/C/wamp/www/codedelivery/app/Providers/RepositoryServiceProvider.php",
+		"/C/wamp/www/codedelivery/bootstrap/app.php",
+		"/C/wamp/www/codedelivery/resources/views/admin/client/edit.blade.php",
+		"/C/wamp/www/codedelivery/resources/views/admin/client/create.blade.php",
+		"/C/wamp/www/codedelivery/database/migrations/2015_12_17_005611_create_clients_table.php",
+		"/C/wamp/www/codedelivery/app/Http/routes.php",
+		"/C/wamp/www/codedelivery/app/Http/Kernel.php",
+		"/C/wamp/www/codedelivery/app/Http/Requests/AdminProductRequest.php",
+		"/C/wamp/www/codedelivery/app/Repositories/CategoryRepositoryEloquent.php",
+		"/C/wamp/www/codedelivery/resources/views/admin/products/edit.blade.php",
+		"/C/wamp/www/codedelivery/resources/views/admin/products/create.blade.php",
+		"/C/wamp/www/codedelivery/resources/views/admin/categories/create.blade.php",
+		"/C/wamp/www/codedelivery/resources/views/admin/categories/edit.blade.php",
+		"/C/wamp/www/codedelivery/resources/views/admin/categories/_form.blade.php",
+		"/C/wamp/www/codedelivery/resources/views/errors/_check.blade.php",
+		"/C/wamp/www/codedelivery/app/Http/Requests/AdminCategoryRequest.php",
+		"/C/wamp/www/codedelivery/resources/views/admin/categories/index.blade.php",
+		"/C/wamp/www/codedelivery/app/Repositories/CategoryRepository.php",
+		"/C/wamp/www/codedelivery/resources/views/welcome.blade.php",
+		"/C/wamp/www/codedelivery/config/repository.php",
+		"/C/wamp/www/codedelivery/vendor/psy/psysh/test/fixtures/config.php",
+		"/C/wamp/www/codedelivery/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/C/wamp/www/codedelivery/database/seeds/ClientsTableSeeder.php",
+		"/C/wamp/www/codedelivery/database/seeds/CategoryTableSeeder.php",
+		"/C/wamp/www/codedelivery/config/auth.php",
+		"/C/wamp/www/codedelivery/.env",
+		"/C/wamp/www/codedelivery/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php",
+		"/C/wamp/www/codedelivery/database/migrations/2015_12_10_191039_create_categories_table.php",
+		"/C/wamp/www/codedelivery/database/migrations/2015_12_10_215302_create_products_table.php",
+		"/C/wamp/www/codedelivery/app/Category.php",
+		"/C/Users/Rodrigo Ribeiro/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Rodrigo Ribeiro/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/wamp/www/b2df/resources/views/portifolio/index.blade.php",
+		"/C/wamp/www/b2df/resources/views/template.blade.php",
+		"/C/wamp/www/b2df/resources/views/home/index.blade.php",
+		"/C/wamp/www/b2df/resources/views/servicos/index.blade.php",
+		"/C/wamp/www/b2df/resources/views/sobre-a-b2df/index.blade.php",
+		"/C/wamp/www/b2df/resources/views/fale-conosco/index.blade.php",
+		"/C/wamp/www/b2df/resources/views/errors/404.blade.php",
+		"/C/wamp/www/b2df/resources/views/emails/contato.blade.php",
+		"/C/wamp/www/b2df/resources/views/portifolio/residencial/construcao/index.blade.php",
+		"/C/wamp/www/b2df/resources/views/portifolio/residencial/projeto/index.blade.php",
+		"/C/wamp/www/b2df/resources/views/portifolio/residencial/projeto-e-construcao/index.blade.php",
+		"/C/wamp/www/b2df/resources/views/portifolio/exposicao/index.blade.php",
+		"/C/wamp-old-antes-de-13.11.2015/www/pontoeletronico/application/views/scripts/error/error.phtml",
+		"/C/wamp/www/b2df/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Global_.php",
+		"/C/wamp/www/b2df/resources/views/errors/503.blade.php",
+		"/C/wamp/www/b2df/app/Http/Controllers/ContatoController.php",
+		"/C/wamp/www/b2df/app/Http/routes.php",
+		"/C/wamp/www/b2df/public/js/TMForm.js",
+		"/C/wamp/www/b2df/public/css/style.css",
+		"/C/wamp-old-antes-de-13.11.2015/www/stcconstrutora/application/controllers/ComunicacaoExternaController.php",
+		"/C/wamp/www/b2df/.env",
+		"/C/wamp/www/b2df/app/Contato.php",
+		"/C/wamp-old-antes-de-13.11.2015/www/siscof/public/css/style.css",
+		"/C/wamp-old-antes-de-13.11.2015/www/siscof/public/css/admin.css",
+		"/C/wamp-old-antes-de-13.11.2015/www/siscof/public/js/ajax.js",
+		"/C/wamp-old-antes-de-13.11.2015/www/siscof/public/js/scripts.js",
+		"/C/wamp-old-antes-de-13.11.2015/www/siscof/public/css/site.css",
+		"/C/wamp-old-antes-de-13.11.2015/www/siscof/public/css/myBootstrap.css",
+		"/C/wamp/www/b2df/config/app.php",
+		"/C/wamp/www/b2df/vendor/laravel/framework/src/Illuminate/Support/Facades/Config.php",
+		"/C/wamp/www/b2df/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php",
+		"/C/wamp/www/b2df/app/User.php",
+		"/C/wamp/www/b2df/vendor/phpunit/php-text-template/src/Template.php",
+		"/C/wamp/www/b2df/database/migrations/2015_12_02_123631_create_contatos_table.php",
+		"/C/wamp/www/b2df/app/Helpers/customHelper.php",
+		"/C/wamp/www/b2df/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php",
+		"/C/wamp/www/b2df/vendor/laravel/framework/src/Illuminate/Support/helpers.php",
+		"/C/wamp/www/b2df/app/Http/Requests/ContatoRequest.php",
+		"/C/wamp/www/b2df/vendor/symfony/console/Helper/Helper.php",
+		"/C/wamp/www/b2df/composer.json",
+		"/C/wamp/www/b2df/app/Helpers/myHelpers.php",
+		"/C/wamp/www/b2df/app/Http/Controllers/PortifolioController.php",
+		"/C/wamp/www/b2df/public/css/contact-form.css",
+		"/C/wamp-old-antes-de-13.11.2015/www/stcconstrutora/application/views/scripts/comunicacao-externa/fale-conosco.phtml",
+		"/C/wamp/www/b2df/_html_layout/css/style.css",
+		"/C/Users/Rodrigo Ribeiro/Downloads/Contacts.html",
+		"/C/wamp/www/b2df/public/css/blueimp-gallery/custom-blueimp-gallery.css",
+		"/C/wamp/www/b2df/public/css/blueimp-gallery/blueimp-gallery-indicator.css",
+		"/C/wamp/www/b2df/public/css/blueimp-gallery/blueimp-gallery.css",
+		"/C/wamp/www/b2df/public/js/blueimp-gallery/aplicaScriptBlueImp.js",
+		"/C/wamp/www/b2df/resources/views/portifolio/residencial/index.blade.php",
+		"/C/wamp/www/b2df/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php",
+		"/C/wamp/www/b2df/resources/views/portifolio/residencial-projeto/index.blade.php",
+		"/C/Users/Rodrigo Ribeiro/Downloads/Gallery-2.16.0/Gallery-2.16.0/teste.html",
+		"/C/Users/Rodrigo Ribeiro/Downloads/Gallery-2.16.0/Gallery-2.16.0/js/jquery.blueimp-gallery.min.js",
+		"/C/Users/Rodrigo Ribeiro/Downloads/Gallery-2.16.0/Gallery-2.16.0/index.html",
+		"/C/Users/Rodrigo Ribeiro/Downloads/Gallery-2.16.0/Gallery-2.16.0/js/blueimp-gallery-video.js",
+		"/C/Users/Rodrigo Ribeiro/Downloads/Gallery-2.16.0/Gallery-2.16.0/js/blueimp-gallery-indicator.js",
+		"/C/Users/Rodrigo Ribeiro/Downloads/Gallery-2.16.0/Gallery-2.16.0/js/blueimp-gallery-vimeo.js",
+		"/C/Users/Rodrigo Ribeiro/Downloads/Gallery-2.16.0/Gallery-2.16.0/js/blueimp-gallery-youtube.js"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"client",
+			"Client",
+			"oder",
+			"order_items",
+			"Category",
+			"category",
+			"categories",
+			"product",
+			"products",
+			"product",
+			"products",
+			"Client",
+			"Products",
+			"products.",
+			"products/",
+			"categories.",
+			"categories/",
+			"admin.",
+			"/admin/",
+			"/admin",
+			"category",
+			"categories",
+			"Categories",
+			"categories",
+			"Categories",
+			"reveal_in_side_bar",
+			"projetos de sobrados",
+			"projeto casa",
+			"projeto arquitetura",
+			"projetos de arquitetura",
+			"arquitetura e construção",
+			"construção e reforma",
+			"construir casas",
+			"construção de casas",
+			"arquitetura e construção",
+			"logo",
+			"DESENV",
+			"codigoErro",
+			"<br />",
+			"loading",
+			"#loading",
+			"img",
+			"loader",
+			"jqAjax",
+			"loader",
+			"owne",
+			"ownerEm",
+			"emailDestinatario",
+			"Undefined variable: fromName",
+			"dd",
+			"'dd'",
+			"been sent",
+			"You message has been sent",
+			"You message has been sent! We will be in touch soon.",
+			"responseErrorClass",
+			"responseMessageClass",
+			"processingClass",
+			"recaptcha_reload",
+			"recaptchaPublicKey",
+			"formSubmit",
+			"validateTes",
+			"ERROR",
+			"contact-form",
+			"TMForm",
+			"contact-form",
+			"no-link",
+			"link",
+			"scripts",
+			"newsletter-form",
+			"grid_12",
+			"@media (max-width",
+			"showResidencialProjetoEConstrucao",
+			"tituloPortifolio",
+			"indicator",
+			".indicator",
+			".indicator > li",
+			".blueimp-gallery > .indicator > li",
+			".blueimp-gallery",
+			".blueimp-gallery > .indicator > li",
+			"') }}",
+			"{{ HTML::script('",
+			"{{",
+			"gallery_icon",
+			"links",
+			"blueimp-gallery.css",
+			"blueimp-gallery.min.css",
+			"Lightbox image gallery",
+			"Depositphotos_4929371_original.jpg ",
+			"http://livedemo00.template-help.com/wt_51894/gallery",
+			"file_list.php",
+			"inner",
+			"viewport",
+			"conhecimento sólido",
+			"ancDesign",
+			"ancArquitetura",
+			"ancConstrucao",
+			"ancContrucao",
+			"arqDetalhe",
+			"toTop",
+			"vertical",
+			"text-align: right",
+			"btn-default",
+			"border-radius",
+			"fa fa-chevron-up",
+			".js\"",
+			"src=\"",
+			"detectEnvironment",
+			"Route",
+			"');\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"order",
+			"Order",
+			"order",
+			"Order",
+			"order",
+			"orders",
+			"client",
+			"clients",
+			"client",
+			"clients",
+			"Clients",
+			"Client",
+			"",
+			"product",
+			"products",
+			"Products",
+			"products",
+			"Products",
+			"</div>",
+			"frmContato",
+			"') }}\"></script>",
+			"<script src=\"{{ asset('",
+			"{!!",
+			"listaFotos",
+			"gallery",
+			".js') }}\"",
+			"src=\"{{ asset('/"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/Http/routes.php",
+					"settings":
+					{
+						"buffer_size": 2449,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2367,
+								2367
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 117.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "resources/views/admin/orders/index.blade.php",
+					"settings":
+					{
+						"buffer_size": 1016,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								850,
+								850
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 147.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "resources/views/admin/orders/edit.blade.php",
+					"settings":
+					{
+						"buffer_size": 953,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								760,
+								760
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/Http/Controllers/OrdersController.php",
+					"settings":
+					{
+						"buffer_size": 1352,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1341,
+								1341
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 231.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/Models/Order.php",
+					"settings":
+					{
+						"buffer_size": 781,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								673,
+								673
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 79.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 103.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"order",
+				"app/Models/Order.php"
+			],
+			[
+				"orderscon",
+				"app/Http/Controllers/OrdersController.php"
+			],
+			[
+				"app.bl",
+				"resources/views/app.blade.php"
+			],
+			[
+				"cli",
+				"app/Http/Controllers/ClientsController.php"
+			],
+			[
+				"categoriescon",
+				"app/Http/Controllers/CategoriesController.php"
+			],
+			[
+				"client",
+				"app/Models/Client.php"
+			],
+			[
+				"produ",
+				"app/Http/Controllers/ProductsController.php"
+			],
+			[
+				"productsc",
+				"app/Http/Controllers/ProductsController.php"
+			],
+			[
+				"clien",
+				"app/Http/Controllers/ClientsController.php"
+			],
+			[
+				"_form.bla",
+				"resources/views/admin/clients/_form.blade.php"
+			],
+			[
+				"create.bla",
+				"resources/views/admin/clients/create.blade.php"
+			],
+			[
+				"composer.",
+				"composer.json"
+			],
+			[
+				"app",
+				"config/app.php"
+			],
+			[
+				"app.",
+				"config/app.php"
+			],
+			[
+				"edit.blade",
+				"resources/views/admin/clients/edit.blade.php"
+			],
+			[
+				"userrepos",
+				"app/Repositories/UserRepository.php"
+			],
+			[
+				"create.blade",
+				"resources/views/admin/clients/create.blade.php"
+			],
+			[
+				"categor",
+				"app/Models/Category.php"
+			],
+			[
+				"user",
+				"app/Models/User.php"
+			],
+			[
+				"product.php",
+				"app/Models/Product.php"
+			],
+			[
+				"index.blade",
+				"resources/views/admin/products/index.blade.php"
+			],
+			[
+				"_form",
+				"resources/views/admin/clients/_form.blade.php"
+			],
+			[
+				"rou",
+				"app/Http/routes.php"
+			],
+			[
+				"categoryrepos",
+				"app/Repositories/CategoryRepositoryEloquent.php"
+			],
+			[
+				"productrepos",
+				"app/Repositories/ProductRepositoryEloquent.php"
+			],
+			[
+				"app.bla",
+				"resources/views/app.blade.php"
+			],
+			[
+				"app.php",
+				"config/app.php"
+			],
+			[
+				"category",
+				"app/Repositories/CategoryRepository.php"
+			],
+			[
+				"rout",
+				"app/Http/routes.php"
+			],
+			[
+				"config",
+				"vendor/psy/psysh/test/fixtures/config.php"
+			],
+			[
+				"model",
+				"database/factories/ModelFactory.php"
+			],
+			[
+				"blue",
+				"vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php"
+			],
+			[
+				"product_ta",
+				"database/migrations/2015_12_10_215302_create_products_table.php"
+			],
+			[
+				"global.php",
+				"vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Global_.php"
+			],
+			[
+				"templa",
+				"resources/views/template.blade.php"
+			],
+			[
+				"facade",
+				"vendor/laravel/framework/src/Illuminate/Support/Facades/Config.php"
+			],
+			[
+				"templ",
+				"resources/views/template.blade.php"
+			],
+			[
+				"helper",
+				"vendor/laravel/framework/src/Illuminate/Support/helpers.php"
+			],
+			[
+				"helper.php",
+				"vendor/laravel/framework/src/Illuminate/Foundation/helpers.php"
+			],
+			[
+				"port",
+				"app/Http/Controllers/PortifolioController.php"
+			],
+			[
+				"tmfo",
+				"public/js/TMForm.js"
+			],
+			[
+				"contato",
+				"app/Contato.php"
+			],
+			[
+				"portifoli",
+				"app/Http/Controllers/PortifolioController.php"
+			],
+			[
+				"style",
+				"_html_layout/css/style.css"
+			],
+			[
+				"provi",
+				"vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php"
+			],
+			[
+				"totop",
+				"public/js/jquery.ui.totop.js"
+			],
+			[
+				"mail.php",
+				"config/mail.php"
+			],
+			[
+				"mail.p",
+				"vendor/laravel/framework/src/Illuminate/Support/Facades/Mail.php"
+			],
+			[
+				"database.php",
+				"config/database.php"
+			],
+			[
+				"boots",
+				"bootstrap/app.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 389.0,
+	"status_bar_visible": true
+}
