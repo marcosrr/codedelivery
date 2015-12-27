@@ -3,5 +3,3 @@ Oi teste 2
 Oi teste 3
 Oi teste 4
 Oi teste 5
-Oi teste 6
-Oi teste 7
