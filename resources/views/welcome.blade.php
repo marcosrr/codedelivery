@@ -39,6 +39,15 @@
         <div class="container">
             <div class="content">
                 <div class="title">Laravel 5</div>
+                @if(Auth::user())
+                    @if(Auth::user()->role == "admin")
+                        <h3><a href="{{ route('admin.categories.index') }}">Admin > Categorias</a></h3>
+                    @elseif(Auth::user()->role == "client")
+                        <h3><a href="{{ route('customer.order.index') }}">Meus pedidos</a></h3>
+                    @endif
+                @else
+                    <h3><a href="/auth/login">Login</a></h3>
+                @endif
             </div>
         </div>
     </body>
