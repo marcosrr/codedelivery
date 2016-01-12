@@ -4,20 +4,52 @@
 		"selected_items":
 		[
 			[
+				"or",
+				"orderId"
+			],
+			[
+				"th",
+				"th	Tag"
+			],
+			[
+				"order",
+				"orderRepository"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"cli",
+				"clientId"
+			],
+			[
+				"Reque",
+				"Request"
+			],
+			[
+				"cl",
+				"class"
+			],
+			[
+				"se",
+				"select"
+			],
+			[
+				"op",
+				"option	Tag"
+			],
+			[
+				"rOUT",
+				"Route"
+			],
+			[
 				"user",
 				"userRepository"
 			],
 			[
 				"Order",
 				"OrderService"
-			],
-			[
-				"order",
-				"OrderRepository"
-			],
-			[
-				"th",
-				"this"
 			],
 			[
 				"clien",
@@ -112,10 +144,6 @@
 				"arrFotos"
 			],
 			[
-				"se",
-				"section"
-			],
-			[
 				"swi",
 				"switch	switch …"
 			],
@@ -136,42 +164,34 @@
 	"buffers":
 	[
 		{
+			"file": "app/Http/Controllers/Api/Deliveryman/DeliverymanCheckoutController.php",
+			"settings":
+			{
+				"buffer_size": 1388,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "app/Http/routes.php",
 			"settings":
 			{
-				"buffer_size": 2449,
+				"buffer_size": 4171,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "resources/views/admin/orders/index.blade.php",
+			"file": "app/Http/Middleware/OAuthCheckRole.php",
 			"settings":
 			{
-				"buffer_size": 1016,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "resources/views/admin/orders/edit.blade.php",
-			"settings":
-			{
-				"buffer_size": 953,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/Http/Controllers/OrdersController.php",
-			"settings":
-			{
-				"buffer_size": 1352,
+				"buffer_size": 909,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/Models/Order.php",
+			"file": "app/Repositories/OrderRepositoryEloquent.php",
 			"settings":
 			{
-				"buffer_size": 781,
+				"buffer_size": 2265,
 				"line_ending": "Unix"
 			}
 		}
@@ -208,22 +228,49 @@
 	},
 	"file_history":
 	[
-		"/C/wamp/www/codedelivery/composer.json",
+		"/C/wamp/www/codedelivery/app/Repositories/OrderRepositoryEloquent.php",
 		"/C/wamp/www/codedelivery/app/Models/Order.php",
-		"/C/wamp/www/codedelivery/app/Services/OrderService.php",
-		"/C/wamp/www/codedelivery/database/seeds/UserTableSeeder.php",
-		"/C/wamp/www/codedelivery/app/Repositories/UserRepositoryEloquent.php",
+		"/C/wamp/www/codedelivery/app/Http/Controllers/Api/Client/ClientCheckoutController.php",
 		"/C/wamp/www/codedelivery/app/Models/OrderItem.php",
+		"/C/wamp/www/codedelivery/app/Services/OrderService.php",
+		"/C/wamp/www/codedelivery/app/Repositories/OrderRepository.php",
+		"/C/wamp/www/codedelivery/app/Http/Controllers/CheckoutController.php",
+		"/C/wamp/www/codedelivery/app/Http/Controllers/Api/Client/CheckoutController.php",
+		"/C/wamp/www/codedelivery/composer.json",
+		"/C/wamp/www/codedelivery/app/Http/routes.php",
+		"/C/wamp/www/codedelivery/app/Http/Middleware/VerifyCsrfToken.php",
+		"/C/wamp/www/codedelivery/app/Http/Middleware/OAuthCheckRole.php",
+		"/C/wamp/www/codedelivery/app/Http/Kernel.php",
+		"/C/wamp/www/codedelivery/app/Http/Middleware/CheckRole.php",
+		"/C/wamp/www/codedelivery/config/app.php",
+		"/C/wamp/www/codedelivery/app/OAuth2/PasswordVerifier.php",
+		"/C/wamp/www/codedelivery/config/oauth2.php",
+		"/C/wamp/www/codedelivery/resources/views/app.blade.php",
+		"/C/wamp/www/codedelivery/database/seeds/UserTableSeeder.php",
+		"/C/wamp/www/codedelivery/resources/views/welcome.blade.php",
+		"/C/wamp/www/codedelivery/resources/views/customer/order/index.blade.php",
+		"/C/wamp/www/codedelivery/resources/views/customer/order/create.blade.php",
+		"/C/wamp/www/codedelivery/app/Repositories/ProductRepositoryEloquent.php",
+		"/C/wamp/www/codedelivery/app/Http/Controllers/CupomsController.php",
+		"/C/wamp/www/codedelivery/resources/views/admin/cupoms/index.blade.php",
+		"/C/wamp/www/codedelivery/resources/views/admin/cupoms/_form.blade.php",
+		"/C/wamp/www/codedelivery/resources/views/admin/cupoms/create.blade.php",
+		"/C/wamp/www/codedelivery/app/Http/Requests/AdminCupomRequest.php",
+		"/C/wamp/www/codedelivery/app/Providers/RepositoryServiceProvider.php",
+		"/C/wamp/www/codedelivery/database/migrations/2016_01_04_130408_create_cupoms_table.php",
+		"/C/wamp/www/codedelivery/database/migrations/2015_12_17_012814_create_orders_table.php",
+		"/C/wamp/www/codedelivery/app/Models/Cupom.php",
+		"/C/wamp/www/codedelivery/database/seeds/CupomTableSeeder.php",
+		"/C/wamp/www/codedelivery/database/factories/ModelFactory.php",
+		"/C/wamp/www/codedelivery/database/seeds/DatabaseSeeder.php",
+		"/C/wamp/www/codedelivery/database/seeds/OrderTableSeeder.php",
+		"/C/wamp/www/codedelivery/resources/views/admin/orders/index.blade.php",
+		"/C/wamp/www/codedelivery/resources/views/admin/orders/edit.blade.php",
+		"/C/wamp/www/codedelivery/app/Http/Controllers/OrdersController.php",
+		"/C/wamp/www/codedelivery/app/Repositories/UserRepositoryEloquent.php",
 		"/C/wamp/www/codedelivery/resources/views/admin/products/_form.blade.php",
 		"/C/wamp/www/codedelivery/app/Models/Product.php",
 		"/C/wamp/www/codedelivery/database/migrations/2015_12_17_012858_create_orders_items_table.php",
-		"/C/wamp/www/codedelivery/app/Http/Controllers/OrdersController.php",
-		"/C/wamp/www/codedelivery/resources/views/admin/orders/index.blade.php",
-		"/C/wamp/www/codedelivery/database/seeds/OrderTableSeeder.php",
-		"/C/wamp/www/codedelivery/database/factories/ModelFactory.php",
-		"/C/wamp/www/codedelivery/database/seeds/DatabaseSeeder.php",
-		"/C/wamp/www/codedelivery/database/migrations/2015_12_17_012814_create_orders_table.php",
-		"/C/wamp/www/codedelivery/resources/views/app.blade.php",
 		"/C/wamp/www/codedelivery/app/Http/Requests/AdminClientRequest.php",
 		"/C/wamp/www/codedelivery/app/Services/ClientService.php",
 		"/C/wamp/www/codedelivery/resources/views/admin/clients/index.blade.php",
@@ -234,23 +281,17 @@
 		"/C/wamp/www/codedelivery/app/Http/Controllers/CategoriesController.php",
 		"/C/wamp/www/codedelivery/resources/views/admin/clients/edit.blade.php",
 		"/C/wamp/www/codedelivery/resources/views/admin/clients/create.blade.php",
-		"/C/wamp/www/codedelivery/app/Http/Middleware/CheckRole.php",
 		"/C/wamp/www/codedelivery/app/Models/User.php",
-		"/C/wamp/www/codedelivery/app/Repositories/ProductRepositoryEloquent.php",
 		"/C/wamp/www/codedelivery/app/Repositories/ProductRepository.php",
-		"/C/wamp/www/codedelivery/config/app.php",
 		"/C/wamp/www/codedelivery/app/Repositories/UserRepository.php",
 		"/C/wamp/www/codedelivery/resources/views/admin/products/index.blade.php",
 		"/C/wamp/www/codedelivery/app/Models/Category.php",
 		"/C/wamp/www/codedelivery/resources/views/admin/client/index.blade.php",
 		"/C/wamp/www/codedelivery/resources/views/admin/client/_form.blade.php",
-		"/C/wamp/www/codedelivery/app/Providers/RepositoryServiceProvider.php",
 		"/C/wamp/www/codedelivery/bootstrap/app.php",
 		"/C/wamp/www/codedelivery/resources/views/admin/client/edit.blade.php",
 		"/C/wamp/www/codedelivery/resources/views/admin/client/create.blade.php",
 		"/C/wamp/www/codedelivery/database/migrations/2015_12_17_005611_create_clients_table.php",
-		"/C/wamp/www/codedelivery/app/Http/routes.php",
-		"/C/wamp/www/codedelivery/app/Http/Kernel.php",
 		"/C/wamp/www/codedelivery/app/Http/Requests/AdminProductRequest.php",
 		"/C/wamp/www/codedelivery/app/Repositories/CategoryRepositoryEloquent.php",
 		"/C/wamp/www/codedelivery/resources/views/admin/products/edit.blade.php",
@@ -262,7 +303,6 @@
 		"/C/wamp/www/codedelivery/app/Http/Requests/AdminCategoryRequest.php",
 		"/C/wamp/www/codedelivery/resources/views/admin/categories/index.blade.php",
 		"/C/wamp/www/codedelivery/app/Repositories/CategoryRepository.php",
-		"/C/wamp/www/codedelivery/resources/views/welcome.blade.php",
 		"/C/wamp/www/codedelivery/config/repository.php",
 		"/C/wamp/www/codedelivery/vendor/psy/psysh/test/fixtures/config.php",
 		"/C/wamp/www/codedelivery/database/migrations/2014_10_12_000000_create_users_table.php",
@@ -315,27 +355,7 @@
 		"/C/wamp/www/b2df/vendor/laravel/framework/src/Illuminate/Support/helpers.php",
 		"/C/wamp/www/b2df/app/Http/Requests/ContatoRequest.php",
 		"/C/wamp/www/b2df/vendor/symfony/console/Helper/Helper.php",
-		"/C/wamp/www/b2df/composer.json",
-		"/C/wamp/www/b2df/app/Helpers/myHelpers.php",
-		"/C/wamp/www/b2df/app/Http/Controllers/PortifolioController.php",
-		"/C/wamp/www/b2df/public/css/contact-form.css",
-		"/C/wamp-old-antes-de-13.11.2015/www/stcconstrutora/application/views/scripts/comunicacao-externa/fale-conosco.phtml",
-		"/C/wamp/www/b2df/_html_layout/css/style.css",
-		"/C/Users/Rodrigo Ribeiro/Downloads/Contacts.html",
-		"/C/wamp/www/b2df/public/css/blueimp-gallery/custom-blueimp-gallery.css",
-		"/C/wamp/www/b2df/public/css/blueimp-gallery/blueimp-gallery-indicator.css",
-		"/C/wamp/www/b2df/public/css/blueimp-gallery/blueimp-gallery.css",
-		"/C/wamp/www/b2df/public/js/blueimp-gallery/aplicaScriptBlueImp.js",
-		"/C/wamp/www/b2df/resources/views/portifolio/residencial/index.blade.php",
-		"/C/wamp/www/b2df/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php",
-		"/C/wamp/www/b2df/resources/views/portifolio/residencial-projeto/index.blade.php",
-		"/C/Users/Rodrigo Ribeiro/Downloads/Gallery-2.16.0/Gallery-2.16.0/teste.html",
-		"/C/Users/Rodrigo Ribeiro/Downloads/Gallery-2.16.0/Gallery-2.16.0/js/jquery.blueimp-gallery.min.js",
-		"/C/Users/Rodrigo Ribeiro/Downloads/Gallery-2.16.0/Gallery-2.16.0/index.html",
-		"/C/Users/Rodrigo Ribeiro/Downloads/Gallery-2.16.0/Gallery-2.16.0/js/blueimp-gallery-video.js",
-		"/C/Users/Rodrigo Ribeiro/Downloads/Gallery-2.16.0/Gallery-2.16.0/js/blueimp-gallery-indicator.js",
-		"/C/Users/Rodrigo Ribeiro/Downloads/Gallery-2.16.0/Gallery-2.16.0/js/blueimp-gallery-vimeo.js",
-		"/C/Users/Rodrigo Ribeiro/Downloads/Gallery-2.16.0/Gallery-2.16.0/js/blueimp-gallery-youtube.js"
+		"/C/wamp/www/b2df/composer.json"
 	],
 	"find":
 	{
@@ -354,6 +374,21 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"orderRepository",
+			"repository",
+			"Categories",
+			"Category",
+			"categories",
+			"cupom.",
+			"category",
+			"categories",
+			"Cumpoms",
+			"cumpoms",
+			"Orders",
+			"categories",
+			"Category",
+			"Categories",
+			"Category",
 			"client",
 			"Client",
 			"oder",
@@ -470,6 +505,20 @@
 		"regex": false,
 		"replace_history":
 		[
+			"orderRepository",
+			"Checkout",
+			"Cupom",
+			"cupoms",
+			"cupoms.",
+			"cupom",
+			"cupoms",
+			"Cupoms",
+			"cupoms",
+			"Cumpoms",
+			"cupom",
+			"Cupom",
+			"Cupoms",
+			"Cupom",
 			"order",
 			"Order",
 			"order",
@@ -507,50 +556,51 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/Http/routes.php",
+					"file": "app/Http/Controllers/Api/Deliveryman/DeliverymanCheckoutController.php",
 					"settings":
 					{
-						"buffer_size": 2449,
+						"buffer_size": 1388,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2367,
-								2367
+								1125,
+								1125
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 117.0,
+						"translation.y": 39.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "resources/views/admin/orders/index.blade.php",
+					"file": "app/Http/routes.php",
 					"settings":
 					{
-						"buffer_size": 1016,
+						"buffer_size": 4171,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								850,
-								850
+								4030,
+								4030
 							]
 						],
 						"settings":
@@ -559,31 +609,32 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 147.0,
+						"translation.y": 624.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "resources/views/admin/orders/edit.blade.php",
+					"file": "app/Http/Middleware/OAuthCheckRole.php",
 					"settings":
 					{
-						"buffer_size": 953,
+						"buffer_size": 909,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								760,
-								760
+								655,
+								665
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -593,18 +644,18 @@
 				},
 				{
 					"buffer": 3,
-					"file": "app/Http/Controllers/OrdersController.php",
+					"file": "app/Repositories/OrderRepositoryEloquent.php",
 					"settings":
 					{
-						"buffer_size": 1352,
+						"buffer_size": 2265,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1341,
-								1341
+								1543,
+								1543
 							]
 						],
 						"settings":
@@ -614,35 +665,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 231.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "app/Models/Order.php",
-					"settings":
-					{
-						"buffer_size": 781,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								673,
-								673
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 79.0,
+						"translation.y": 273.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -696,16 +719,92 @@
 		"selected_items":
 		[
 			[
+				"orderre",
+				"app/Repositories/OrderRepositoryEloquent.php"
+			],
+			[
+				"item",
+				"app/Models/OrderItem.php"
+			],
+			[
 				"order",
 				"app/Models/Order.php"
 			],
 			[
-				"orderscon",
-				"app/Http/Controllers/OrdersController.php"
+				"orderrepository",
+				"app/Repositories/OrderRepositoryEloquent.php"
+			],
+			[
+				"orderrep",
+				"app/Repositories/OrderRepository.php"
+			],
+			[
+				"oauthc",
+				"app/Http/Middleware/OAuthCheckRole.php"
+			],
+			[
+				"chec",
+				"app/Http/Controllers/CheckoutController.php"
+			],
+			[
+				"rou",
+				"app/Http/routes.php"
+			],
+			[
+				"checkro",
+				"app/Http/Middleware/CheckRole.php"
+			],
+			[
+				"check",
+				"app/Http/Controllers/CheckoutController.php"
+			],
+			[
+				"verif",
+				"app/Http/Middleware/VerifyCsrfToken.php"
+			],
+			[
+				"rout",
+				"app/Http/routes.php"
+			],
+			[
+				"kerne",
+				"app/Http/Kernel.php"
+			],
+			[
+				"app.",
+				"config/app.php"
+			],
+			[
+				"compos",
+				"composer.json"
+			],
+			[
+				"userta",
+				"database/seeds/UserTableSeeder.php"
+			],
+			[
+				"usertabl",
+				"database/seeds/UserTableSeeder.php"
+			],
+			[
+				"orderrepo",
+				"app/Repositories/OrderRepositoryEloquent.php"
 			],
 			[
 				"app.bl",
 				"resources/views/app.blade.php"
+			],
+			[
+				"productrepos",
+				"app/Repositories/ProductRepositoryEloquent.php"
+			],
+			[
+				"categoryreque",
+				"app/Http/Requests/AdminCategoryRequest.php"
+			],
+			[
+				"orderscon",
+				"app/Http/Controllers/OrdersController.php"
 			],
 			[
 				"cli",
@@ -748,10 +847,6 @@
 				"config/app.php"
 			],
 			[
-				"app.",
-				"config/app.php"
-			],
-			[
 				"edit.blade",
 				"resources/views/admin/clients/edit.blade.php"
 			],
@@ -784,16 +879,8 @@
 				"resources/views/admin/clients/_form.blade.php"
 			],
 			[
-				"rou",
-				"app/Http/routes.php"
-			],
-			[
 				"categoryrepos",
 				"app/Repositories/CategoryRepositoryEloquent.php"
-			],
-			[
-				"productrepos",
-				"app/Repositories/ProductRepositoryEloquent.php"
 			],
 			[
 				"app.bla",
@@ -806,10 +893,6 @@
 			[
 				"category",
 				"app/Repositories/CategoryRepository.php"
-			],
-			[
-				"rout",
-				"app/Http/routes.php"
 			],
 			[
 				"config",
@@ -905,7 +988,7 @@
 		[
 			[
 				"",
-				"/C/wamp/www/academia-core/academia-core.sublime-project"
+				"/C/wamp/www/b2df/b2df.sublime-project"
 			]
 		],
 		"width": 380.0

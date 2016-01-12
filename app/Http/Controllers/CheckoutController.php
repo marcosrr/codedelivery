@@ -11,7 +11,7 @@ use CodeDelivery\Repositories\OrderRepository;
 use CodeDelivery\Repositories\UserRepository;
 use CodeDelivery\Repositories\ProductRepository;
 use CodeDelivery\Services\OrderService;
-use Auth;
+use Illuminate\Support\Facades\Auth; //ou só: use Auth;
 
 class CheckoutController extends Controller
 {
@@ -33,7 +33,7 @@ class CheckoutController extends Controller
         $this->userRepository = $userRepository;
         $this->productRepository = $productRepository;
         $this->orderService = $orderService;
-        $this->clientId = $this->userRepository->find(Auth::user()->id)->client->id;
+        $this->clientId = (Auth::check()) ? $this->userRepository->find(Auth::user()->id)->client->id : null;
     }
 
     public function index()

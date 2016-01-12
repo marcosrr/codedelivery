@@ -15,7 +15,7 @@ $factory->define(CodeDelivery\Models\User::class, function (Faker\Generator $fak
     return [
         'name' => $faker->name,
         'email' => $faker->email,
-        'password' => bcrypt(str_random(10)),
+        'password' => bcrypt(123456),
         'remember_token' => str_random(10),
     ];
 });
@@ -62,5 +62,11 @@ $factory->define(CodeDelivery\Models\Cupom::class, function(Faker\Generator $fak
 	return [
 		'code' => rand(100, 10000),
 		'value' => rand(50, 100)
+	];
+});
+
+$factory->define(CodeDelivery\Models\OauthClient::class, function(Faker\Generator $faker){
+	return [
+
 	];
 });
