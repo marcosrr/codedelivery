@@ -90,15 +90,6 @@ Route::group(['prefix'=>'api', 'middleware'=>'oauth', 'as'=>'api.'], function(){
 			]
 		);
 
-		/*
-		Route::get('pedidos', function() {
-			return [
-				'id' => 1,
-				'client' => 'Marcos Ribeiro - Client',
-				'total' => 10,
-				];
-		});
-		*/
 	});
 
 	Route::group(['prefix'=>'deliveryman', 'middleware'=>'oauth.checkrole:deliveryman', 'as'=>'deliveryman.'], function(){
@@ -109,7 +100,18 @@ Route::group(['prefix'=>'api', 'middleware'=>'oauth', 'as'=>'api.'], function(){
 			]
 		);
 
+		Route::patch('order/update-status/{id}', [ 
+			'uses' => 'Api\Deliveryman\DeliverymanCheckoutController@updateStatus', 
+			'as' => 'orders.update-status' 
+		]);
+
 	});
+
+	Route::get('authenticated', 
+		'Api\Client\ClientCheckoutController', [
+			'except' => ['create', 'edit', 'destroy'] //essa linha informa quais metodos http ele não deve criar
+		]
+	);
 
 });
 

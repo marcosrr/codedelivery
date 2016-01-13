@@ -4,6 +4,7 @@ namespace CodeDelivery\Repositories;
 
 use Prettus\Repository\Eloquent\BaseRepository;
 use Prettus\Repository\Criteria\RequestCriteria;
+use Illuminate\Database\Eloquent\Collection;
 use CodeDelivery\Repositories\OrderRepository;
 use CodeDelivery\Models\Order;
 

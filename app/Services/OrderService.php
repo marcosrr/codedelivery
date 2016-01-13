@@ -5,6 +5,7 @@ namespace CodeDelivery\Services;
 use CodeDelivery\Repositories\OrderRepository;
 use CodeDelivery\Repositories\CupomRepository;
 use CodeDelivery\Repositories\ProductRepository;
+use CodeDelivery\Models\Order;
 
 class OrderService
 {
@@ -81,4 +82,16 @@ class OrderService
 		}
 		
 	}
+
+	public function updateStatus($idOrder, $idDeliveryman, $status)
+	{
+		$order = $this->orderRepository->buscarOrdensPorIdEDeliveryman($idOrder, $idDeliveryman);
+
+		if($order instanceof Order){
+			$order->status = $status;
+			$order->save();
+			return $order;
+		}
+		return false;
+	} 
 }
