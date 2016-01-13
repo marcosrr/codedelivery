@@ -107,11 +107,7 @@ Route::group(['prefix'=>'api', 'middleware'=>'oauth', 'as'=>'api.'], function(){
 
 	});
 
-	Route::get('authenticated', 
-		'Api\Client\ClientCheckoutController', [
-			'except' => ['create', 'edit', 'destroy'] //essa linha informa quais metodos http ele não deve criar
-		]
-	);
+	Route::get('authenticated', 'Api\User\UserController@authenticated');
 
 });
 
